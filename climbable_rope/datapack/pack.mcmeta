@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Climbable Rope - deploy and climb rope columns from the ceiling",
+    "min_format": [121, 0],
+    "max_format": [121, 0]
+  }
+}

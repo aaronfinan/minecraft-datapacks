@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "climbable_rope:item/rope_coil"
+  }
+}

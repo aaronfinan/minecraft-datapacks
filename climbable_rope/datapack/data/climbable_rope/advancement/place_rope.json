@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "using_rope_coil": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead",
+          "predicates": {
+            "minecraft:custom_data": {
+              "climbable_rope": {
+                "coil": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "climbable_rope:place/start"
+  }
+}

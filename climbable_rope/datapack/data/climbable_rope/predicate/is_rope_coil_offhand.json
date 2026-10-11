@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": "minecraft:lead",
+        "predicates": {
+          "minecraft:custom_data": {
+            "climbable_rope": {
+              "coil": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

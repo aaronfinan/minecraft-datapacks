@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "hit_rope": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "climbable_rope:break/attacked"
+  }
+}
